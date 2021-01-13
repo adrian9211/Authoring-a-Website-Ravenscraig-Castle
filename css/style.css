@@ -1,0 +1,92 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.navbar {
+    background-color: #F9F9F9;
+}
+
+#submitBtn {
+    color: white;
+    border-width: 4px;
+    border-color: steelblue;
+}
+
+#contactContainer {
+    margin-top: 50px;
+}
+
+.nav-link, a {
+    font-size: 20px;
+}
+
+.far {
+    margin-right: 10px;
+}
+
+.castle {
+    font-size: 28px;
+}
+
+footer {
+    margin: 40px 0 40px 0;
+}
+
+#map {
+    display: block;
+    margin-left: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.verticalLine {
+    border-left: thick solid #C6C6C6;
+    height: 1.2em;
+    align-self: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+ .mainImage:hover {
+    box-shadow: 0 0 8px 5px #C6C6C6;
+ }
+
+ .mainHeading {
+     padding: 1em;
+ }
+ 
+ hr {
+     margin-top: 4em;
+     margin-bottom: 4em;
+ }
+
+ .customImages {
+    width: 90%;
+ }
+
+ .linePadding {
+     margin-top: 4em;
+ }
+
+ .footerStyle  {
+        list-style: none; /* Remove list bullets */
+        padding: 0;
+        margin: 0;
+}
+
+.verticalLine2 {
+    border-left: thick solid #C6C6C6;
+    height: 1.2em;
+    align-self: center;
+  }
+
+  .nav-link {
+      color: #7C7CA4;
+  }
