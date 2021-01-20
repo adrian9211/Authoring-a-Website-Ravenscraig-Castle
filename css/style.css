@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background-color: #F9F9F9;
+    font-family: 'Merriweather', serif;
 }
 
 #submitBtn {
@@ -14,6 +15,7 @@ body {
 
 #contactContainer {
     margin-top: 50px;
+    font-family: 'Merriweather', serif;
 }
 
 .nav-link, a {
@@ -54,6 +56,7 @@ footer {
 
  .mainHeading {
      padding: 1em;
+     font-family: 'Arvo', serif;
  }
  
  hr {
@@ -97,4 +100,16 @@ footer {
 
   .embed-responsive {
       margin-top: 3em;
+  }
+
+  .footer {
+    font-family: 'Merriweather', serif;
+  }
+
+  footer {
+    font-family: 'Merriweather', serif;
+  }
+
+  p {
+    font-family: 'Merriweather', serif;
   }
