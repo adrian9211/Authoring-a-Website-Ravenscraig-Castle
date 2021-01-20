@@ -64,6 +64,7 @@
         <hr>
         <p class="text-center"> Ravenscraig Castle originally built as a royal residence for Queen Mary of Gueldres in
           1460. The ruins straddle a high triangular-shaped promontory overlooking the Firth of Forth. The principal buildings, facing landward, comprise two lofty drum towers flanking a central block housing the main entrance. Behind it lie foundations of ancillary structures and defensive walls. The castle is noted for its array of gunholes. </p>
+        <hr>
         
         <div class="row">
           <div class="col-sm-8">
@@ -76,7 +77,9 @@
               KY1 2AZ    56.121503N 3.138429W
             </p>
           </div>
-          <div class="col-sm-4"><div id="map"></div></div>
+          <div class="col-sm-4"><iframe class="mainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2224.152965513657!2d-3.1378154256848454!3d56.119871773180364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b50064500001%3A0x26e2db2789ff542a!2sRavenscraig%20Castle!5e0!3m2!1spl!2suk!4v1611137785838!5m2!1spl!2suk"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><div id="map"></div>
+          
+        </div>
         </div>
     </div>
     <!-- History part START -->
@@ -270,25 +273,6 @@
 
     <!-- Script section below -->
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYfO0N0RsB5c1One8ug58OX4bM2mStl2Q&callback=initMap&libraries=&v=weekly" defer> </script>
-
-    <script>
-        // Initialize and add the map
-        function initMap() {
-          // The location of Uluru
-          const uluru = { lat: 56.119861, lng: -3.142296 };
-          // The map, centered at Uluru
-          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
-            center: uluru,
-          });
-          // The marker, positioned at Uluru
-          const marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-          });
-        }
-      </script>
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

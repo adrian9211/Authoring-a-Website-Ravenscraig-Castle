@@ -32,12 +32,6 @@ footer {
     margin: 40px 0 40px 0;
 }
 
-#map {
-    display: block;
-    margin-left: auto;
-    height: 300px;
-    width: 300px;
-}
 
 .verticalLine {
     border-left: thick solid #C6C6C6;
@@ -89,4 +83,18 @@ footer {
 
   .nav-link {
       color: #7C7CA4;
+  }
+
+  .mainMap {
+      width: 20em;
+      height: 20em;
+  }
+
+
+  .contactMap {
+      padding-top: 12em;
+  }
+
+  .embed-responsive {
+      margin-top: 3em;
   }
